@@ -14,11 +14,17 @@ class Contacto {
   get obtenerTelefono() {
     return this.telefono;
   }
+  get obtenerTamanio() {
+    return this.tamanio;
+  }
   set modificarNombre(nuevoNombre) {
     this.nombre = nuevoNombre;
   }
   set modificarTelefono(nuevoTelefono) {
     this.telefono = nuevoTelefono;
+  }
+  set modificarTamanio(nuevoTamanio) {
+    this.tamanio = nuevoTamanio; //
   }
 }
 
